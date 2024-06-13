@@ -1,4 +1,4 @@
-![3](https://github.com/azim-abdulhanov/vue-blogs/assets/133730471/804e3762-0e77-408f-a4d6-18b611dcb659)# vue-blogs
+# vue-blogs
 
 This template should help get you started developing with Vue 3 in Vite.
 
