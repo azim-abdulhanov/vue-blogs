@@ -1,0 +1,6 @@
+export { default as Navbar } from '@/components/Navbar.vue'
+export { default as Footer } from '@/components/Footer.vue'
+export { default as Login } from '@/components/Login.vue'
+export { default as Register } from '@/components/Register.vue'
+export { default as Profile } from '@/components/Profile.vue'
+export { default as EmptyCard } from '@/components/EmptyCard.vue'

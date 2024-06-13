@@ -1,0 +1,8 @@
+export { default as Home } from '@/views/Home.vue'
+export { default as Login } from '@/views/Login.vue'
+export { default as Register } from '@/views/Register.vue'
+export { default as ArticleDetail } from '@/views/ArticleDetail.vue'
+export { default as CreateArticle } from '@/views/CreateArticle.vue'
+export { default as EditArticle } from '@/views/EditArticle.vue'
+export { default as Profile } from '@/views/Profile.vue'
+export { default as EmptyCard } from '@/views/EmptyCard.vue'
