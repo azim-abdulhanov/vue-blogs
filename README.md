@@ -27,3 +27,12 @@ npm run dev
 ```sh
 npm run build
 ```
+
+Main content:
+
+![1](https://github.com/azim-abdulhanov/vue-blogs/assets/133730471/6e307386-3b2c-41e4-9278-fc6d0bf2119c)
+
+User information:
+
+![2](https://github.com/azim-abdulhanov/vue-blogs/assets/133730471/651a60e4-506d-4f49-a592-c0e260abcf2a)
+
