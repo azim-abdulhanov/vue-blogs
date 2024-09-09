@@ -69,7 +69,6 @@ const mutations = {
 		state.user = null
 		state.isLoggedIn = false
 	},
-
 	logout(state) {
 		state.user = null
 		state.isLoggedIn = false
@@ -113,7 +112,7 @@ const actions = {
 		return new Promise(resolve => {
 			context.commit('currentUserStart')
 			AuthService.getUser()
-				.then(response => {
+			.then(response => {
 					context.commit('currentUserSuccess', response.data.user)
 					resolve(response.data.user)
 				})

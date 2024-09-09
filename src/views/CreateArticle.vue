@@ -6,6 +6,7 @@
 			</h3>
 			<Loader v-if='isLoading' class='flex justify-center h-full my-10' />
 			<ArticleForm
+				v-else
 				:initialValue='initialValue'
 				:onSubmitHandler='createArticleHandler'
 				:clickText="'Create article'"
@@ -46,6 +47,6 @@ export default {
 				body: ''
 			}
 		}
-	},
+	}
 }
 </script>

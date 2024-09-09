@@ -13,22 +13,22 @@
 				<Input
 					:label="'Fullname'"
 					:type="'text'"
-					v-model='username'
+					v-model="username"
 				/>
 				<Input
 					:label="'Email address'"
 					:type="'email'"
-					v-model='email'
+					v-model="email"
 				/>
 				<Input
 					:label="'Password'"
 					:type="'password'"
-					v-model='password'
+					v-model="password"
 				/>
 				<Button
-					type='submit'
-					:disabled='isLoading'
-					@click='submitHandler'
+					type="submit"
+					:disabled="isLoading"
+					@click="submitHandler"
 				>
 					Sign up
 				</Button>
@@ -71,10 +71,10 @@ export default {
 			this.$store
 				.dispatch('register', data)
 				.then(user => {
-					console.log(user)
+					console.log('User', user)
 					this.$router.push({ name: 'home' })
 				})
-				.catch(err => console.log(err))
+				.catch(err => console.log('Error', err))
 		},
 	},
 }

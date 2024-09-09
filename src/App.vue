@@ -1,19 +1,18 @@
 <template>
 	<div>
 		<Navbar />
-		<router-view />
-		<Footer />
+		<RouterView />
 	</div>
 </template>
 
 <script>
+import { mapState } from 'vuex'
+import { RouterView } from 'vue-router'
 import { Navbar } from '@/components'
-import { Footer } from '@/components'
 
 export default {
 	components: {
-		Navbar,
-		Footer
+		Navbar	
 	},
 	mounted() {
 		this.$store.dispatch('getUser')
