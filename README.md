@@ -1,5 +1,3 @@
-![4](https://github.com/user-attachments/assets/ec563b46-8f36-4964-9aa2-c12f150d4bed)# vue-blogs
-
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
@@ -38,7 +36,7 @@ Create article:
 ![3](https://github.com/user-attachments/assets/4f57caf9-e76c-455f-b129-309e89c3ea7d)
 
 Edit article:
-![image](https://github.com/user-attachments/assets/738eced0-33f8-46ea-9d9d-4c8fcb72d79c)
+![4](https://github.com/user-attachments/assets/ec563b46-8f36-4964-9aa2-c12f150d4bed)# vue-blogs
 
 Article information:
 ![5](https://github.com/user-attachments/assets/1d76ef5f-88f5-4965-8cea-d78424947a72)
