@@ -1,6 +1,6 @@
 <template>
   <div class='w-full border border-gray-300 rounded-lg shadow p-4'>
-    <h3 class='text-lg font-bold line-clamp-1 md:line-clamp-2'>{{ article.title }}</h3>
+    <h3 class='text-lg font-bold line-clamp-1'>{{ article.title }}</h3>
     <p class='my-3 font-medium line-clamp-2 md:line-clamp-3'>{{ article.description }}</p>
 
     <div class='flex flex-wrap sm:flex-nowrap gap-y-3 items-center sm:justify-between justify-center'>
