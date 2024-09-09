@@ -1,4 +1,4 @@
-# vue-blogs
+![4](https://github.com/user-attachments/assets/ec563b46-8f36-4964-9aa2-c12f150d4bed)# vue-blogs
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -29,30 +29,22 @@ npm run build
 ```
 
 Main content:
-
-![1](https://github.com/azim-abdulhanov/vue-blogs/assets/133730471/6e307386-3b2c-41e4-9278-fc6d0bf2119c)
+![1](https://github.com/user-attachments/assets/bce32d7d-414e-4bd3-b6c0-a1f69e8b1d70)
 
 User information:
-
-![2](https://github.com/azim-abdulhanov/vue-blogs/assets/133730471/651a60e4-506d-4f49-a592-c0e260abcf2a)
+![2](https://github.com/user-attachments/assets/6daded4c-8d5d-4688-bdca-5a19e1338aa3)
 
 Create article:
-
-![3](https://github.com/azim-abdulhanov/vue-blogs/assets/133730471/e62b6e9b-5089-4a83-8613-11298124b349)
+![3](https://github.com/user-attachments/assets/4f57caf9-e76c-455f-b129-309e89c3ea7d)
 
 Edit article:
-
-![4](https://github.com/azim-abdulhanov/vue-blogs/assets/133730471/ad1032a4-7638-408e-8735-8a21e12e449b)
+![image](https://github.com/user-attachments/assets/738eced0-33f8-46ea-9d9d-4c8fcb72d79c)
 
 Article information:
-
-![5](https://github.com/azim-abdulhanov/vue-blogs/assets/133730471/653b1310-72c4-41be-93e3-0120265f169e)
+![5](https://github.com/user-attachments/assets/1d76ef5f-88f5-4965-8cea-d78424947a72)
 
 Register:
-
-![6](https://github.com/azim-abdulhanov/vue-blogs/assets/133730471/5f8c41ea-638b-4d66-a83b-b8fabcb75379)
+![6](https://github.com/user-attachments/assets/8f350aed-964f-4039-9d55-ac2da58982a1)
 
 Login:
-
-![7](https://github.com/azim-abdulhanov/vue-blogs/assets/133730471/db252277-5adc-4ee8-8c8a-34a1a211719d)
-
+![7](https://github.com/user-attachments/assets/484b61dd-4d42-4c4f-bae7-30b7f914c4c8)
