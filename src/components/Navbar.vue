@@ -1,42 +1,42 @@
 <template>
 	<header class='container'>
-		<nav class='py-5 flex flex-wrap gap-y-2 justify-between items-center border-b-2 border-blue-500'>
-			<router-link :to='{ name: "home" }' class='flex items-center gap-x-2'>
-				<img :src='logo' alt='Header Logo' class='h-14 w-full' />
-				<span class='text-xl font-bold uppercase tracking-wide'>Vueblogs</span>
+		<nav class='py-5 flex gap-y-2 justify-between items-center border-b-2 border-blue-500'>
+			<router-link :to='{ name: "home" }' class='flex items-center gap-x-1 sm:gap-x-2'>
+				<img :src='logo' alt='Header Logo' class='h-10 sm:h-14 w-full' />
+				<span class='text-xl sm:text-2xl font-bold text-blue-600 tracking-wide'>Vueblogs</span>
 			</router-link>
 
-			<div v-if='isLoggedIn' class='flex items-center gap-x-2'>
+			<div v-if='isLoggedIn' class='flex items-center gap-x-2.5 sm:gap-x-6'>
 				<router-link
 					:to='{ name: "create-article" }'
-					class='rounded-md px-3 py-1 text-lg font-medium transition-all hover:bg-slate-100'
+					class='text-lg transition-all duration-300 hover:text-blue-500'
 				>
-					<i class="fa-solid fa-pen"></i>
+					<fa icon="pen" />
 				</router-link>
 				<router-link
 					:to='{ name: "empty-card" }' @click='logout'
-					class='rounded-md px-3 py-1 transition-all hover:bg-slate-100'
+					class='text-lg transition-all duration-300 hover:text-red-500'
 				>
-					<i class="fa-solid fa-right-from-bracket fa-lg"></i>
+					<fa icon="right-to-bracket" />
 				</router-link>
 				<router-link
 					:to='{ name: "profile" }'
-					class='rounded-md px-3 py-1 text-lg font-medium transition-all hover:bg-slate-100 placeholder:logout'
+					class='text-md font-medium placeholder:logout'
 				>
 					<img :src="currentUser.image" alt="" class="rounded-full w-8 h-8">
 				</router-link>
 			</div>
 
-			<div v-if='isAnonymous' class='flex items-center gap-x-2'>
+			<div v-if='isAnonymous' class='flex items-center gap-x-1 sm:gap-x-6'>
 				<router-link
 					:to='{ name: "login" }'
-					class='rounded-md px-3 py-1 text-lg font-medium transition-all hover:bg-slate-100'
+					class='text-sm sm:text-lg font-medium transition-all duration-300 hover:text-blue-600'
 				>
 					Login
 				</router-link>
 				<router-link
 					:to='{ name: "register" }'
-					class='rounded-md px-3 py-1 text-lg font-medium transition-all hover:bg-slate-100'
+					class='text-sm sm:text-lg font-medium transition-all duration-300 hover:text-blue-600'
 				>
 					Register
 				</router-link>

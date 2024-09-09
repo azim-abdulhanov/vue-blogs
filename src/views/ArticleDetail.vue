@@ -1,5 +1,5 @@
 <template>
-	<div class='py-20'>
+	<div class='py-10 sm:py-20'>
 		<Loader v-if='isLoading' class='flex justify-center h-full my-10' />
 		<ArticleDetail v-else />
 	</div>
